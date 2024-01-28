@@ -2,10 +2,10 @@
 *.txt
 
 Ігнорувати конкретний файл
-my-passwords.txt
+russia-defeat-map.jpg
 
 Ігнорувати всі файли в певній папці
-drafts/*
+russia-defeat-plans/*
 
 Ігнорувати всі .txt файли, крім plans.txt
 *.txt
