@@ -21,7 +21,7 @@ h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -41,6 +41,11 @@ h3 {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+.h1 {
+    line-height: 1.07;
+    text-align: center;
+    color: #ffffff;
 }
 .logo {
     text-transform: uppercase;
@@ -68,6 +73,18 @@ h3 {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+.button {
+    background-color: #4d5ae5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+.button:hover,
+.buttoon:focus {
+    background-color: #404bbf;
+}
 .button-text {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -85,9 +102,7 @@ h3 {
     text-decoration: underline;
     color: #2e2f42;
 }
-.link:hover {
-    color: #404bbf;
-}
+.link:hover,
 .link:focus {
     color: #404bbf;
 }
@@ -98,7 +113,6 @@ h3 {
     font-style: normal;
 }
 .contacts .link {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -106,9 +120,7 @@ h3 {
     text-decoration: underline;
     color: #434455;
 }
-.contacts .link:hover {
-    color: #404bbf;
-}
+.contacts .link:hover,
 .contacts .link:focus {
     color: #404bbf;
 }
