@@ -48,14 +48,14 @@ h1.title {
     color: #ffffff;
 }
 h2.title {
-    line-height: 1.07;
+    line-height: 1.11;
     text-align: center;
-    color: #ffffff;
+    color: #2e2f42;
 }
 h3.title {
-    line-height: 1.07;
+    line-height: 1.2;
     text-align: center;
-    color: #ffffff;
+    color: #2e2f42;
 }
 .logo {
     text-transform: uppercase;
@@ -64,7 +64,10 @@ h3.title {
     letter-spacing: 0.03em;
     color: #4d5ae5;
 }
-.logo span {
+.logo span.light {
+    color: #2e2f42;
+}
+.logo span.f4f4fd {
     color: #2e2f42;
 }
 .text-small {
