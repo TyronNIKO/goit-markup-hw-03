@@ -42,7 +42,17 @@ h3 {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.h1 {
+h1.title {
+    line-height: 1.07;
+    text-align: center;
+    color: #ffffff;
+}
+h2.title {
+    line-height: 1.07;
+    text-align: center;
+    color: #ffffff;
+}
+h3.title {
     line-height: 1.07;
     text-align: center;
     color: #ffffff;
@@ -82,7 +92,7 @@ h3 {
     cursor: pointer;
 }
 .button:hover,
-.buttoon:focus {
+.button:focus {
     background-color: #404bbf;
 }
 .button-text {
@@ -109,6 +119,9 @@ h3 {
 .hero {
     background: #2e2f42;
 }
+.our-team {
+    background: #f4f4fd;
+}
 .contacts {
     font-style: normal;
 }
@@ -123,4 +136,13 @@ h3 {
 .contacts .link:hover,
 .contacts .link:focus {
     color: #404bbf;
+}
+.card {
+    background-color: #ffffff;
+}
+.footer {
+    background-color: #2e2f42;
+}
+.footer .description {
+    color: #f4f4fd;
 }
