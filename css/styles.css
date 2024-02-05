@@ -67,8 +67,8 @@ h3.title {
 .logo span.light {
     color: #2e2f42;
 }
-.logo span.f4f4fd {
-    color: #2e2f42;
+.logo span.dark {
+    color: #f4f4fd;
 }
 .text-small {
     font-family: "Roboto", sans-serif;
