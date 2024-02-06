@@ -1,63 +1,38 @@
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #434455;
-    background-color: #ffffff;
-    cursor: pointer;
+    background-color: #fff;
 }
 ul {
     list-style-type: none;
 }
-h1,
-h2,
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
+.title {
+    text-align: center;
 }
-h1 {
-    font-family: "Roboto", sans-serif;
+h1.title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-h2 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11111;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-h3 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-h1.title {
-    line-height: 1.07;
-    text-align: center;
-    color: #ffffff;
+    color: #fff;
 }
 h2.title {
+    font-weight: 700;
+    font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     color: #2e2f42;
 }
 h3.title {
+    font-weight: 500;
+    font-size: 20px;
     line-height: 1.2;
-    text-align: center;
     color: #2e2f42;
 }
 .logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
     text-transform: uppercase;
     font-size: 18px;
     line-height: 1.17;
@@ -71,7 +46,6 @@ h3.title {
     color: #f4f4fd;
 }
 .text-small {
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16667;
@@ -79,7 +53,6 @@ h3.title {
     color: #2e2f42;
 }
 .text-medium {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -91,15 +64,14 @@ h3.title {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    color: #fff;
     cursor: pointer;
 }
-.button:hover,
-.button:focus {
+.button:focus,
+.button:hover {
     background-color: #404bbf;
 }
 .button-text {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -107,17 +79,22 @@ h3.title {
     color: #2e2f42;
 }
 .link {
-    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #2e2f42;
+}
+.link:focus,
+.link:hover {
+    color: #404bbf;
+}
+.nav-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-decoration: underline;
     color: #2e2f42;
-}
-.link:hover,
-.link:focus {
-    color: #404bbf;
 }
 .hero {
     background: #2e2f42;
@@ -129,23 +106,26 @@ h3.title {
     font-style: normal;
 }
 .contacts .link {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-decoration: underline;
     color: #434455;
 }
-.contacts .link:hover,
-.contacts .link:focus {
+.contacts .link:focus,
+.contacts .link:hover {
     color: #404bbf;
 }
 .card {
-    background-color: #ffffff;
+    background-color: #fff;
 }
 .footer {
     background-color: #2e2f42;
 }
 .footer .description {
     color: #f4f4fd;
+}
+.description {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
