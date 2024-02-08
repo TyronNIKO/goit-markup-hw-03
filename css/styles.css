@@ -1,3 +1,7 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 body {
     font-family: Roboto, sans-serif;
     font-weight: 400;
@@ -8,6 +12,17 @@ body {
 ul {
     list-style-type: none;
 }
+.container {
+    max-width: 1128px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav,
+.nav ul {
+    flex-direction: row;
+}
 .title {
     text-align: center;
 }
@@ -17,6 +32,7 @@ h1.title {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
+    max-width: 496px;
 }
 h2.title {
     font-weight: 700;
@@ -70,6 +86,11 @@ h3.title {
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
+    max-width: fit-content;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .button:focus,
 .button:hover {
@@ -107,6 +128,9 @@ h3.title {
 }
 .hero {
     background: #2e2f42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .our-team {
     background: #f4f4fd;
@@ -128,6 +152,9 @@ h3.title {
 .card {
     background-color: #fff;
 }
+.header {
+    padding: 24px 0;
+}
 .footer {
     background-color: #2e2f42;
 }
@@ -137,4 +164,66 @@ h3.title {
 .description {
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+/*Common rules*/
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-left {
+    text-align: left;
+}
+/*END Common rules*/
+/*Uncommon rules*/
+.min-h-600 {
+    min-height: 600px;
+}
+.py-120 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+/*END Uncommon rules*/
+/*Flexbox common rules*/
+.flex {
+    display: flex;
+}
+.flex-row {
+    flex-direction: row;
+}
+.flex-col {
+    flex-direction: column;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.items-center {
+    align-items: center;
+}
+.gap-24 {
+    gap: 24px;
+}
+.gap-40 {
+    gap: 40px;
+}
+.gap-48 {
+    gap: 40px;
+}
+.gap-76 {
+    gap: 76px;
+}
+
+/*END Flexbox common rules*/
+.hidden {
+    display: none;
+}
+.hidden-element {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    left: -9999px;
 }
