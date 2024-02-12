@@ -269,6 +269,7 @@ h3.title {
     justify-content: space-between;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .our-portfolio .item .title {
     margin-bottom: 8px;
@@ -279,11 +280,7 @@ h3.title {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.footer .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+/* .footer .content {display: flex;flex-direction: column;justify-content: space-between} */
 .footer .logo {
     display: inline-block;
     margin-bottom: 16px;
