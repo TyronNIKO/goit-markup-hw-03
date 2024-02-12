@@ -120,7 +120,7 @@ h3.title {
 .link:hover {
     color: #404bbf;
 }
-.menu-item {
+.nav .menu-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -128,8 +128,8 @@ h3.title {
     text-decoration: none;
     color: #2e2f42;
 }
-.menu-item:focus,
-.menu-item:hover {
+.nav .menu-item:focus,
+.nav .menu-item:hover {
     color: #404bbf;
 }
 .hero {
@@ -200,6 +200,10 @@ h3.title {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.section:not(.hero) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 /*!header*/
 .header .content {
     display: flex;
@@ -217,6 +221,24 @@ h3.title {
     justify-content: center;
     align-items: center;
     gap: 40px;
+}
+/*!hero*/
+.hero .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 48px;
+    min-height: 600px;
+}
+
+/*!footer*/
+.footer .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 /*!*/
 .mx-auto {
