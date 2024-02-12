@@ -210,7 +210,6 @@ h3.title {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 76px;
 }
 .header .menu {
     display: flex;
